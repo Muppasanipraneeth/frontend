@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+
+}
+body{
+    background-color: black;
+    color: antiquewhite;
+    font-weight: 400;
+
+}
+p{
+    background-color: rgb(189, 10, 10);
+}
+h2{
+    background-color: rgb(112, 34, 34);
+    text-decoration: underline;
+
+}
+.element {
+    background-image: url('ironman.jpg');
+    background-size: cover; /* Ensures the image covers the entire element */
+    /* Add any additional styling you need */
+  }
