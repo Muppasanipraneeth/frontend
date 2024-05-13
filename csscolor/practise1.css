@@ -1,0 +1,15 @@
+/* rgb(255,255,255) equivalent to */
+h1{
+    color: #fff;
+    background-color: #000;
+}
+p{
+    color: #ff0;
+    background-color: #0ff;
+}
+h2{
+    color: #0ff;
+}
+h3{
+    color: #ff0;
+}
