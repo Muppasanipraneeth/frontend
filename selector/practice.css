@@ -1,0 +1,17 @@
+h1{
+color: #1b74e4;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+#searchbtn{
+    background-color: black;
+    color: white;
+}
+.userbtn{
+    background-color: aqua;
+}
+/* descendent selector */
+p a{
+    color: brown;
+}
