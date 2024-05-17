@@ -16,3 +16,38 @@ h1{
 p a{
     color: brown;
 }
+/* sibling combinator */
+/* or adjacent combinator */
+div >input{
+    background-color: rgb(152, 211, 233)
+}
+.upvote+button{
+    background-color: blue
+}
+input[type="password"]{
+    color: green;
+}
+input[type="text"]{
+    color: #B92B27;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+#myid p{
+
+    color:green;
+}
+button :hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    background-color: #B92B27;
+    color: white;
+}
+input[type="radio"]:checked +label{
+    color: red;
+}
+div :nth-of-type(2n){
+    background-color: #B92B27;
+}

@@ -11,7 +11,3 @@ color: #1b74e4;
 .userbtn{
     background-color: aqua;
 }
-/* descendent selector */
-p a{
-    color: brown;
-}

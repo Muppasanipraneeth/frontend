@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    /* width: 900px; */
+    border: 1px solid black;
+ 
+    background-color: rgb(35, 57, 91);
+    margin: 5px;
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(22, 25, 37);
+   
+}
+html{
+    color:  rgb(203, 247, 237);
+}
+h1 {
+    border: 1px solid black;   /* Decrease the border width */
+    text-align: center;
+    background-color: #406E8E;
+    font-size: 18px;           /* Decrease the font size */
+    padding: 5px;              /* Decrease the padding */
+    margin: 10px 0;            /* Adjust the margin */
+    border-radius: 2px;        /* Optional: Add border-radius if needed */
+    box-sizing: border-box;    /* Include padding and border in the element's total width and height */
+}
+
+.bordered {
+    /* No need to set box-sizing here since it's already set in h1 */
+}
+
+.adjusting{
+    text-align: center;
+    border-radius: 2px;
+    
+}
