@@ -1,0 +1,26 @@
+.mic{
+    box-sizing: border-box;
+    position:absolute;
+    border :solid rgb(212, 201, 201);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color:rgb(255, 251, 251);
+    width: 66px;
+    height: 66px;
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.35s,border-color 0.25sec;
+}
+.material-symbols-outlined{
+    background-color: white;
+    color: black;
+}
+.mic:hover{
+    background-color: rgba(255, 255, 255, 1);
+    border-color: gray;
+}

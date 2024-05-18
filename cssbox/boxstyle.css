@@ -1,0 +1,12 @@
+.box{
+text-align: center;
+padding: 20px;
+border: solid;
+box-sizing: border-box;
+border-radius: 8px;
+transition: 0.25;
+height: auto;
+width: auto;
+
+
+}
