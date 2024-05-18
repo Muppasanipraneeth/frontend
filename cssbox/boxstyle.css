@@ -1,12 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 .box{
 text-align: center;
+justify-content: center;
+align-items: center;
+display: flex;
 padding: 20px;
 border: solid;
 box-sizing: border-box;
 border-radius: 8px;
 transition: 0.25;
-height: auto;
-width: auto;
+height: 150px;
+width: 150px;
 
 
 

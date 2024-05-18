@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.traffic-light {
+    width: 100px;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.light {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #444;
+    margin: 10px auto;
+    opacity: 0.3;
+}
+
+.red {
+    animation: redLight 9s infinite;
+}
+
+.yellow {
+    animation: yellowLight 9s infinite;
+}
+
+.green {
+    animation: greenLight 9s infinite;
+}
+
+@keyframes redLight {
+    0% { background-color: red; opacity: 1; }
+    33% { background-color: red; opacity: 1; }
+    36% { background-color: #444; opacity: 0.3; }
+    100% { background-color: #444; opacity: 0.3; }
+}
+
+@keyframes yellowLight {
+    0% { background-color: #444; opacity: 0.3; }
+    33% { background-color: #444; opacity: 0.3; }
+    36% { background-color: yellow; opacity: 1; }
+    66% { background-color: yellow; opacity: 1; }
+    69% { background-color: #444; opacity: 0.3; }
+    100% { background-color: #444; opacity: 0.3; }
+}
+
+@keyframes greenLight {
+    0% { background-color: #444; opacity: 0.3; }
+    66% { background-color: #444; opacity: 0.3; }
+    69% { background-color: green; opacity: 1; }
+    100% { background-color: green; opacity: 1; }
+}
