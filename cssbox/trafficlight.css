@@ -46,12 +46,37 @@ body{
    margin: 22px;
 
 }
-.orange:hover{
-    background-color: yellow;
+.orange{
+    /* background-color: yellow; */
+    animation: orangelight 9s infinite;
 }
-.red:hover{
-    background-color: red;
+.red{
+    /* background-color: red; */
+    animation: redlight 9s infinite;
 }
-.green:hover{
-    background-color: green;
+.green{
+    /* background-color: green; */
+    animation: greenlight 9s infinite;
+}
+@keyframes orangelight {
+    0% { background-color: #444; opacity: 0.3; }
+    34% { background-color: #444; opacity: 0.3; }
+    35% { background-color: yellow; opacity: 1; }
+    66% { background-color: yellow; opacity: 1; }
+    80% { background-color:#444; opacity: 0; }
+    100% {   background-color: #444; opacity: 0;}
+    
+}
+@keyframes redlight {
+    0% { background-color: red; opacity: 1; }
+    33% { background-color: red; opacity: 1; }
+    36% { background-color: #444; opacity: 0.3; }
+    100% { background-color: #444; opacity: 0.3; }
+    
+}
+@keyframes greenlight {
+    0% { background-color: #444; opacity: 0.3; }
+    70% {background-color: #444; opacity: 0.3; }
+    80% { background-color: green; opacity: 1; }
+    100% {  background-color: green; opacity: 1; }    
 }
