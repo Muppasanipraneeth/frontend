@@ -1,0 +1,51 @@
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(31, 29, 29);
+}
+#face{
+    height: 125px;
+    width:  125px;
+    border-radius: 50%;
+    background-color: #ffb700;
+    padding: 10px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.eye{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+.eye1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 73px;
+    top: 0px;
+}
+.lips{
+    height: 15px;
+    width: 50px;
+    background-color: red;
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+    transition: 2s;
+    border-radius: 0px 0px 10px 10px;
+
+}
+.lips:hover{
+    height: 35px;
+    width: 50pz;
+    border-radius: 0px 0px 35px 35px;
+}
