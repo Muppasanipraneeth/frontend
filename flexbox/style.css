@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+#container{
+height: 400px;
+width: 80%;
+border: 2px solid black;
+margin:  10px auto;
+flex-direction: ;
+display: flex;
+justify-content: flex-end;
+flex-wrap: wrap;
+/* flex-direction: row; */
+
+}
+.blue{
+    background-color: blue;
+    height: 15px;
+    width: 200px;
+
+
+}
+.indigo{
+    background-color: indigo;
+    height: 10px;
+}
+.red{
+    background-color: red;
+    height: 10px;
+}
+.yellow{
+    background-color: yellow;
+    height: 10px;
+}
+.orange{
+    background-color: orange;
+    height: 10px;
+}
+.green{
+    background-color:green;
+    
+}
+.voilet{
+    background-color: blueviolet;
+}
+#container div{
+    height: 100px;
+    width :100px;
+    text-align: center;
+    color: #fff;
+}
