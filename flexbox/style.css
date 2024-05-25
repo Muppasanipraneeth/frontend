@@ -6,7 +6,7 @@ height: 400px;
 width: 80%;
 border: 2px solid black;
 margin:  10px auto;
-flex-direction: ;
+flex-direction:start ;
 display: flex;
 justify-content: flex-end;
 flex-wrap: wrap;

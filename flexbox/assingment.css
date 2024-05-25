@@ -1,0 +1,32 @@
+#container{
+    height:400px;
+    width: 400px;
+    display: flex;
+    border: 2px solid rgb(0, 140, 255);
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+}
+div{
+    font-size: 50px;
+    margin:5px;
+ 
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: grey; */
+    border: 5px solid black;
+
+}
+.a{
+    height: 100px;
+    width: 100px;
+    display: flex;           /* Add this to enable flex properties */
+    align-items: center;     /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    border-radius: 5px;
+    margin: auto;
+    background-color: grey;
+}

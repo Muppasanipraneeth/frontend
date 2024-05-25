@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height:600px ;
+    width: 350px;
+    background-color: black;
+    display: grid;
+    border: 2px solid white;
+    border-radius: 7px ;
+    grid-template-rows: repeat(6,60px);
+    grid-template-columns: repeat(3,60px);
+
+
+}
+ .item{
+    /* height: 100px;
+    width: 50px; */ 
+    background-color: rgba(186, 9, 9, 0.834);
+    border: 2px solid white;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
