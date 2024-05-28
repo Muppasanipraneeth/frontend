@@ -1,0 +1,101 @@
+/* Resetting margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#check {
+    display: none;
+}
+
+.main_box {
+    background-image: url("photo.jpg");
+    height: 100vh;
+}
+
+.btn_one {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.btn_one i {
+    color: white;
+    line-height: 50px;
+}
+
+.sidebar_menu {
+    position: fixed;
+    left: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px white;
+    transition: 0.5s;
+}
+
+#check:checked ~ .sidebar_menu {
+    left: 0;
+}
+
+.sidebar_menu .logo a {
+    display: block;
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.sidebar_menu .btn_two i {
+    position: absolute;
+    color: grey;
+    font-size: 30px;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.sidebar_menu .menu {
+    margin-top: 60px;
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar_menu .menu li {
+    margin: 30px 20px;
+}
+
+.sidebar_menu .menu li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.sidebar_menu .menu li a:hover {
+    box-shadow: 0 0 6px white;
+}
+
+.sidebar_menu .social_media {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.sidebar_menu .social_media a {
+    color: white;
+    margin: 0 10px;
+    opacity: 0.5;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.sidebar_menu .social_media a:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
