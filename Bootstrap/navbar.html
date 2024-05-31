@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+
+</head>
+<body>
+   
+<div class="navbar navbar-light bg-light fixed-top navbar-expand-lg">
+    <div class="container">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAdVBMVEX///8AAAC/v7/09PSioqLS0tIwMDD6+vrl5eV7e3vx8fF4eHjLy8tQUFBGRkarq6vY2NiOjo7e3t6EhIS3t7cXFxcMDAyampo+Pj5hYWHb29uwsLDs7OwgICCgoKBXV1dsbGwsLCyJiYm8vLxlZWU3NzckJCSrYnspAAAE5klEQVR4nO2d13KrQAyGg4MDbsENN1xTzvs/4okhTgyIErMrrTT67pmR/lkWrcry9KQoiqIoiqIoimKTPbUBTJj724Pn7ajNYMB04WX0qS1xnuTi3RhT2+I4vneHilVHz8sxpbbHYYaTvFZeSG2Ruyy9ItQWucuopFVMbZKzvJa08rbUNrnKS1krb01tlKNAWunHEKb4GdT9vZoFqNWA2iwneQe10pMhxBDW6oXaLicBgoYrS2q7XKQcuKesqO1yElgrr0dtl4usYa1eqe1ykoqFpfl3gCOslU9tl5PEoFYTarOcpA8vLGqz3GQAaqUZUhBQKz3ngISQVhphwUSqVXvKeXetFVZSTvrNqU1yl1VBqteA2iKHKWilcXsdOalOQ2pz3OZeKq3lNPAj1ZsG7Y0cPO8wWUT6CUwJ5j1/NjiPZlH/ue0zu2gwyYqum8nAH7d+jjXD5SCfgBkljVt4fw2UL0aJdMEisGizWdekQPtAQH8LwCI8y7GZV7vtvfjgOpnOqh/J1pfMnS08Nfh9ei88sV9fGh5JH5P3yQxqVtUv59/kQuiDPTQQ0tofKmqm0EI5ToNgvGitVIqopMTHn1x/gAW1h8YIi2kEC2yonTTE2L5UX8QiDtwJilZfCIhRoYS6HVbsc4QV/XtW+KR2tiMVtWVLnKnd7URFr6M1WJ8V/xZadmZG7W8X3lClilmfqaeoWp2p3e3GAVMr1ttVZfueHZgfpQNMrbhXzODRG9UKAnNhse9HakqeG4T/uCaeVidqVzuDeIBmn2yoGuqyAP85sWc0rQTkk/1mLw0hoON7i6WVgIWF9y1kH2JhJkipPTUA2pYlobhqvQJ9g3myIQVLKwlvIZpYEr6Fcyyx3qg9NUCv2U0z8D/qIJbsJezvaLks1sWvb1q1RJpAQpsRmljUjprgrGK1By3nQO2oCdDE4p9RRhRLwkU+aOdoCffoo23wEoJStNAhofbUAPDFOxaQkPtDO+5IuIgTrxBG7akB0FI0EnZ4vGbSEbWr3cEr3kt4D/HEKo4KM+SCJpaAkgVaCC+hMQQvdhBwgzDO8GoG+9YQ1Gkwamc7gzmJcqZ2titoeYcr3MMHvMnoK8wvWNmjisV98B5XrJh35QIt/ydBLcxIK4VzoQd12jCF87kHrRz2A+PhMLQraH555dtUgy+W5x2pnX6Upiv+rBAzrSTiVS3y8Dz8EInFM2WDOX5/B7XbjwH+5MQ6XCv6GwqxuDYwU2zxfG9nIxCL7/09qFf3ZFC73AF0rThPPiHesZLBOWWKnajh3VSDvLQ4ZwCxlxbvhYXa9cB7x0pB1IrzpzADMYyndtUA5b8VWoJp3i8HVnGa76nwnor/2JuGa7qhAMp11Px39wyMLGBM7aQxEBqQJEwefmO9LMa4Gl3C9qmHf8vyPZavauNbtwexGj8ImA3LYzGQ51r9qsHaD8MEjO+UsBZtse6QrMJS56SQY04RK7GpuM39hoWMPN+iaiPGG2skRe4lDP/jSbRWLQoY23XS6+92/V4yazxRSrhMspa6nPw2KRT+Qr/ujwWcO99bsr9UKAX3Nz5HFbnDE/vCVyuAc2J8rHF9B00v8mwdfYBh/qu4mjX+kamXH5z6FL9b3RMsv3fvw0fScrRynow+r+fLf9uI+TDmIwRhyLuRQ1EURVEURTHCf8eYSCcC+BLCAAAAAElFTkSuQmCC" alt="applebrand" widht="100" height="40px">
+        <!-- <img src="data:image/jpeg;base64,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" alt="netflx" width="100px" height="50px"> -->
+        <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+            <span class="navbar-toggler-icon"></span>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="navbar-nav">
+              <a href="#" class="nav-link ">Home</a>
+              <a href="#" class="nav-link">About Us</a>
+              <a href="#" class="nav-link">Contact Us</a>
+            </div>
+          
+        </div>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search product" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <!-- <form action="">
+          <div class="input-group">
+            <span >@</span>
+            <input type="text" placeholder="username" class="form-control">
+          </div>
+        </form> -->
+    
+    </div>
+</div>
+<div class="conatiner text-center  text-danger bg-white"><p>this web page is under progression  may you can come later and check agian!</p></div>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet pariatur, ullam iste cumque alias temporibus provident vel beatae modi necessitatibus quos quia id exercitationem atque. Minus provident aliquid temporibus cum.
+Voluptatum provident vero dignissimos sint praesentium alias ratione minus explicabo deleniti veritatis impedit, voluptas quia quod at sit modi illum omnis tempora consequuntur deserunt unde ad? Incidunt cum delectus minima!
+Blanditiis culpa magnam nostrum necessitatibus deserunt, quae eum quisquam provident impedit dolore saepe incidunt animi amet temporibus, non in facere dignissimos fugit alias cupiditate explicabo unde? Laboriosam sapiente voluptatum saepe!
+Ex quibusdam repellendus quasi maxime maiores officiis, corporis aspernatur, totam perspiciatis adipisci voluptatum. Aliquam tempora reiciendis eveniet eum. Dolore ipsa voluptas corrupti laudantium voluptatum sit dolorum illo a non quae.
+Quos doloribus commodi assumenda tempora reiciendis cum veniam, ad esse a aliquam, amet temporibus, expedita excepturi omnis debitis suscipit. Nihil laudantium nemo fuga corrupti molestiae doloribus veritatis incidunt modi quos.
+Voluptate hic, quo cupiditate ipsum id qui omnis repellat maiores, a magni necessitatibus voluptatibus. Iste dignissimos dolore, expedita eaque adipisci suscipit aliquam ullam fuga, soluta dolores laboriosam, nam et cum.
+Quae cum ad, consectetur id reprehenderit inventore qui asperiores optio aliquid error, eaque doloribus tempore, eveniet possimus laudantium voluptatibus eius natus ut! Debitis nobis itaque voluptatibus rerum accusantium dignissimos eius.
+Minima nam, nesciunt consectetur animi libero explicabo modi esse quae quos? Recusandae, fugiat voluptatem deleniti nam tempora iure. Deserunt distinctio laboriosam harum nesciunt neque soluta eum sed sunt culpa est?
+Odio mollitia dolorum, repellat unde, quam velit amet laboriosam ipsum totam provident officiis vitae expedita voluptatum voluptatem necessitatibus quasi perferendis tempora quidem est voluptate a sapiente. Vero maiores impedit aut.
+Mollitia nisi accusamus tenetur sequi, neque doloribus, esse cumque earum vitae ut autem eius? Et culpa commodi minima laboriosam quo, consequuntur, est unde quos animi, vero labore expedita itaque quis?
+Dolor nesciunt, fugit quaerat odio tempora amet! Numquam, dicta vel eaque reiciendis tenetur velit perspiciatis laborum quasi! Error placeat ea, maiores ad ipsam quis hic laboriosam quidem dolorum deserunt perferendis!
+Aspernatur dolorem eius consequatur laudantium et voluptatum doloremque, maxime ullam cumque veniam illo pariatur consectetur officiis fuga, mollitia ducimus id itaque dignissimos quasi, rerum at qui quidem exercitationem a. Quia!
+Temporibus exercitationem rerum numquam hic. Perspiciatis quidem tempore praesentium sed laudantium ut ipsum delectus illum reprehenderit architecto quibusdam excepturi ex vel, distinctio dolores maxime iure enim cumque quam? Voluptatum, iure?
+In rem perferendis cupiditate sed quae dolorem mollitia laudantium, ad esse repudiandae, labore enim sint tempora? Vero sed eos pariatur molestiae. Eum non, sunt suscipit repellat laborum repellendus tempore eos!
+Ducimus ipsa quas eligendi voluptatibus saepe voluptas, laudantium sit iste iusto! Nulla nam delectus officiis aut! Placeat harum repellat, a sapiente labore ea tempora omnis quo quasi nam, eius saepe.
+Cumque, possimus unde. Ut, aut vel dolorum rem optio, quis dicta ipsum sed eligendi aliquid eos veritatis quibusdam excepturi vitae omnis impedit. Natus veniam aliquam sunt enim, blanditiis autem nihil.
+Officia cumque laboriosam iste dolorem accusantium laborum quas mollitia, exercitationem cum inventore quos quo consequuntur? Cumque deleniti, accusamus molestiae sit neque porro earum nobis magnam pariatur, sequi, beatae optio nam.
+Culpa possimus consequuntur qui dolorem voluptatem at, error magni, voluptatum illum temporibus rerum sunt ut ullam excepturi quos, commodi quisquam officia praesentium eaque cupiditate id eum vero dicta. Tempora, quia.
+Voluptatibus provident animi mollitia nemo sunt possimus numquam cum quos placeat, rem ut expedita totam porro harum? Odit, eligendi ipsa, reprehenderit accusamus dolore sed quis molestiae nobis dignissimos corporis adipisci?
+In tempora explicabo ipsa natus, quod velit voluptates, perferendis quam pariatur eligendi a corrupti odio quisquam ducimus minima mollitia porro molestiae! Natus reiciendis, enim porro repellat repellendus nesciunt nihil fugiat.
+Voluptatem tempora reiciendis unde assumenda necessitatibus quisquam laborum, accusantium, dicta iusto sunt velit et magni qui vitae animi est? Odit culpa architecto eum voluptatum quibusdam dolorum id, deserunt nulla perspiciatis?
+Reiciendis voluptatum fugit suscipit nesciunt delectus. Libero voluptatibus, animi nostrum sunt suscipit sit dolores cupiditate facilis possimus earum deleniti quis. Dolorem quibusdam sunt voluptatum quis provident exercitationem eum sit obcaecati.
+Quis praesentium voluptatem facere veniam aspernatur explicabo asperiores minima corporis illum. Possimus, dicta officia laboriosam consequuntur laudantium ad nulla aliquam consequatur nihil itaque? Quibusdam quia sed placeat harum fuga molestias!
+Repellendus quos quam dignissimos. Iste amet molestiae sequi, minima, eaque nesciunt hic repudiandae eligendi sit incidunt autem. Atque, nihil, porro hic eaque eos sequi commodi dolore animi labore inventore repudiandae.
+Et aliquam magni fuga quisquam, autem aut deserunt soluta asperiores quaerat ducimus doloribus amet, praesentium at rerum voluptates aperiam accusantium tempore velit neque tenetur eligendi blanditiis. Eum labore explicabo porro!
+Sapiente a animi aperiam aliquam illum dicta expedita mollitia iure voluptatem amet ipsa, aut assumenda nisi dignissimos dolor ducimus dolorum ea debitis, perferendis quasi repellendus voluptatibus. Ea laboriosam molestias itaque?
+Fugiat, eveniet ratione blanditiis nobis aliquam sunt eaque asperiores vitae numquam, voluptate non vel maxime voluptatibus culpa impedit dolorum minus, earum nostrum. Aut quam necessitatibus inventore sint voluptates! Quaerat, quae!
+Provident exercitationem magni, nesciunt, quaerat ducimus esse corrupti nostrum perferendis culpa nulla recusandae sint eveniet. Totam provident blanditiis amet, veritatis facilis non nam, distinctio consequatur tempora aut maiores exercitationem magni!
+Et reiciendis tempore placeat quasi quo ex temporibus optio sunt adipisci magnam molestias nostrum, exercitationem assumenda labore itaque fugit libero commodi, eaque nesciunt hic nam! Beatae itaque ipsa iste autem.
+Dolor adipisci corrupti soluta sapiente? Rerum esse vel eveniet repellat beatae amet, dicta maxime incidunt ad, aspernatur at saepe quae, eius ipsa ipsum doloribus hic rem quisquam provident quidem sunt!
+   <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
